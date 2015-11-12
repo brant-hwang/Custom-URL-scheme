@@ -43,10 +43,6 @@
 
   <!-- android -->
   <platform name="android">
-    <js-module src="www/android/LaunchMyApp.js" name="LaunchMyApp">
-      <clobbers target="window.plugins.launchmyapp" />
-    </js-module>
-
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="LaunchMyApp">
         <param name="android-package" value="nl.xservices.plugins.LaunchMyApp"/>
